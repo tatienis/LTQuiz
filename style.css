@@ -63,11 +63,11 @@ button:hover {
 
 /* Answer Highlighting */
 .correct {
-    background-color: #006a44;
+    background-color: lightgreen;
 }
 
 .wrong {
-    background-color: #c1272d;
+    background-color: #ffcccc;
 }
 
 /* Result Label Positioning */
@@ -92,19 +92,24 @@ button:hover {
         font-size: 1.3rem;
     }
 
+    ul li {
+        padding: 15px;
+        font-size: 1.1rem; /* Larger font for readability */
+    }
+
     button {
-        font-size: 0.9rem;
-        padding: 8px;
+        font-size: 1.1rem; /* Larger font size for mobile */
+        padding: 15px; /* Larger padding for easier touch */
     }
 }
 
 @media screen and (max-width: 400px) {
     ul li {
-        padding: 8px;
+        padding: 12px;
     }
 
     button {
-        padding: 6px;
-        font-size: 0.8rem;
+        padding: 12px;
+        font-size: 1rem;
     }
 }
